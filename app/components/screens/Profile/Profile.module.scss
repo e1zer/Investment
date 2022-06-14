@@ -1,0 +1,25 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 340px));
+  grid-gap: 2rem;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card{
+  max-width: 370px;
+  width: 100%;
+  border-radius: 12px;
+  background: rgb(143,139,133);
+  background: linear-gradient(300deg, rgba(143,139,133,1) 0%, rgba(64,61,57,1) 35%, rgba(37,36,34,1) 100%);
+  color: rgb(255, 255, 255);
+  &_title{
+    color: rgb(180, 180, 180);
+  }
+}
+.promotion{
+  color: rgb(95, 161, 95);
+}
+.fall{
+  color: rgb(199, 86, 86);
+}
